@@ -1,0 +1,71 @@
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Pranjaly Ganvir/Desktop/.git/
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ git clone https://github.com/pranjali-ganvir/newRepo.git
+Cloning into 'newRepo'...
+warning: You appear to have cloned an empty repository.
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ cd New Folder
+bash: cd: too many arguments
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ cd New folder
+bash: cd: too many arguments
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ cd NewFolder
+bash: cd: NewFolder: No such file or directory
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop (master)
+$ cd Newolder
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$ ls
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$ ls
+AbstractionClass.java                   Polymorphism.java
+ClassTypecasting.java                   PrimitiveTypecating.java
+Encapsulation.java                      SIB_IIB_BLOCKS.java
+ExceptionHandlingCheckedException.java  ThisKeyword.java
+FinalKeyword.java                       ThrowAndThrows.java
+MainMethodOverloading.class             UncheckedException.java
+MainMethodOverloading.java
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$ git add .
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$ git commit -m "done"
+[master (root-commit) a39b1dd] done
+ 13 files changed, 413 insertions(+)
+ create mode 100644 Newolder/AbstractionClass.java
+ create mode 100644 Newolder/ClassTypecasting.java
+ create mode 100644 Newolder/Encapsulation.java
+ create mode 100644 Newolder/ExceptionHandlingCheckedException.java
+ create mode 100644 Newolder/FinalKeyword.java
+ create mode 100644 Newolder/MainMethodOverloading.class
+ create mode 100644 Newolder/MainMethodOverloading.java
+ create mode 100644 Newolder/Polymorphism.java
+ create mode 100644 Newolder/PrimitiveTypecating.java
+ create mode 100644 Newolder/SIB_IIB_BLOCKS.java
+ create mode 100644 Newolder/ThisKeyword.java
+ create mode 100644 Newolder/ThrowAndThrows.java
+ create mode 100644 Newolder/UncheckedException.java
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$ git push --all https://github.com/pranjali-ganvir/newRepo.git
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (16/16), 5.53 KiB | 1.38 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/pranjali-ganvir/newRepo.git
+ * [new branch]      master -> master
+
+Pranjaly Ganvir@DESKTOP-9CG3S45 MINGW64 ~/Desktop/Newolder (master)
+$
